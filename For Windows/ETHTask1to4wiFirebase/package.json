@@ -1,0 +1,31 @@
+{
+  "name": "express-react-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"webpack\" \"nodemon server.js\"",
+    "build": "npx webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.1",
+    "mongoose": "^6.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
